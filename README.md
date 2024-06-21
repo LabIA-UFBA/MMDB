@@ -1,7 +1,5 @@
 # MMDB
-MultipleMyelomaDatasetBenchmarkDiagnosis (MMDB)  is a novel dataset of plasma cells.
-
-
+PCMMD: A Novel Dataset of Plasma Cells to Support the Diagnosis of Multiple Myeloma is a novel dataset of plasma cells.
 
 This repository contains the database with annotations of plasma cells and non-plasma cells, as well as the diagnoses of 10 patients with multiple myeloma.
 
