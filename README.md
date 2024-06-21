@@ -27,7 +27,7 @@ The following folder division was made for dataset organization and to conduct a
 
 #### Instalation
 
-O Yolov8 pode ser instalado aqui: [[ultralytics](https://github.com/ultralytics/ultralytics)](https://github.com/ultralytics/ultralytics)
+To setup and install Yolov8: [ultralytics](https://github.com/ultralytics/ultralytics)
 
 ---
 
