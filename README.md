@@ -17,8 +17,8 @@ The following folder division was made for dataset organization and to conduct a
     - `split_{1}.txt`: File with the path of the images for each fold `i`.
     - `mieloma_final.yaml`: Final file used to train with all folds and test with the 10 patients.
   - `segmentation/`: Data for instance segmentation.
-    - `plasma cells/`: It contains the crop images and mask of plama cells.
-    - `non-plasma cells/`: It contains the crop images and mask of non-plama cells.
+    - `plasma cells/`: It contains cropped images and masks of plasma cells.
+    - `non-plasma cells/`: It contains cropped images and masks of non-plasma cells.
 - `src`:
   - `dignosis.ipynb`: Jupyter notebook that performs the diagnosis of the 10 patients.
   - `weights.ph`: Yolo v8 weights from the final training used for diagnosis.
