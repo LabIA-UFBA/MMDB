@@ -9,12 +9,16 @@ In addition to the database, a training was performed using the deep learning mo
 
 The following folder division was made for dataset organization and to conduct a benchmark with the goal of diagnosing 10 patients. Cross-validation with 5 folds was performed, and the model's variance against the dataset was checked.
 
--  `data/`: 
-  - `patients/`: It contains the images, annotations of plasma cells and non-plasma cells, and the diagnoses of 10 patients.
-  - `train/`:  It contains the images and annotations of plasma cells and non-plasma cells from various patients.
-  - `mieloma_fold_{i}.yaml` Configuration file for each fold `i` used for training.
-  - `split_{1}.txt`: File with the path of the images for each fold `i`.
-  - `mieloma_final.yaml`: Final file used to train with all folds and test with the 10 patients.
+- `data/`:
+  - `detection/`: Data for object detection.
+    - `patients/`: It contains the images, annotations of plasma cells and non-plasma cells, and the diagnoses of 10 patients.
+    - `train/`:  It contains the images and annotations of plasma cells and non-plasma cells from various patients.
+    - `mieloma_fold_{i}.yaml` Configuration file for each fold `i` used for training.
+    - `split_{1}.txt`: File with the path of the images for each fold `i`.
+    - `mieloma_final.yaml`: Final file used to train with all folds and test with the 10 patients.
+  - `segmentation/`: Data for instance segmentation.
+    - `plasma cells/`: It contains the crop images and mask of plama cells.
+    - `non-plasma cells/`: It contains the crop images and mask of non-plama cells.
 - `src`:
   - `dignosis.ipynb`: Jupyter notebook that performs the diagnosis of the 10 patients.
   - `weights.ph`: Yolo v8 weights from the final training used for diagnosis.
