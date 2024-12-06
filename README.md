@@ -21,6 +21,7 @@ The following folder division was made for dataset organization and to conduct a
     - `non-plasma cells/`: It contains cropped images and masks of non-plasma cells.
 - `src`:
   - `dignosis.ipynb`: Jupyter notebook that performs the diagnosis of the 10 patients.
+  - `plot.ipynb`: Jupyter notebook that visualizes detection and segmentation results for analysis and debugging.
   - `weights.pt`: Yolo v8 weights from the final training used for diagnosis.
 
 
