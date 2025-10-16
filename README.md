@@ -50,11 +50,13 @@ metrics = model.val()  # evaluate model performance on the validation set
 
 ```
 
+#### Test
+
+Use `MMDB/src/diagnosis.ipynb` for test.
+
 ##  📝 Citation
 
 If you find the dataset useful for your research, please consider citing:
-
-
 
 ```latex
 @article{lb2025pcmmd,
@@ -70,6 +72,3 @@ If you find the dataset useful for your research, please consider citing:
 
 
 
-#### Test
-
-Use `MMDB/src/diagnosis.ipynb` for test.
