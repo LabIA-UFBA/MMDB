@@ -3,6 +3,10 @@ PCMMD: A Novel Dataset of Plasma Cells to Support the Diagnosis of Multiple Myel
 
 This repository contains the database with annotations of plasma cells and non-plasma cells, as well as the diagnoses of 10 patients with multiple myeloma.
 
+Original Manuscript:
+
+> LB ANDRADE, Caio et al. PCMMD: A Novel Dataset of Plasma Cells to Support the Diagnosis of Multiple Myeloma. Scientific Data, v. 12, n. 1, p. 161, 2025. URL: (https://www.nature.com/articles/s41597-025-04459-1).
+
 In addition to the database, a training was performed using the deep learning model Yolo version 8 for cell identification, and diagnosis based on the population of plasma cells.
 
 ## Project Structure
