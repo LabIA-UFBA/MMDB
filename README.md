@@ -50,6 +50,24 @@ metrics = model.val()  # evaluate model performance on the validation set
 
 ```
 
+##  📝 Citation
+
+If you find the dataset useful for your research, please consider citing:
+
+
+
+```latex
+@article{lb2025pcmmd,
+  title={PCMMD: A Novel Dataset of Plasma Cells to Support the Diagnosis of Multiple Myeloma},
+  author={LB Andrade, Caio and Ferreira, Marcos V and M. Alencar, Brenno and SB Filho, Jorge L and A. Guimaraes, Matheus and Porto Cruz Moraes, Iarley and S. Lopes, Tiago J and S. dos Santos, Allan and M. dos Santos, Mariane and CS e Silva, Maria I and others},
+  journal={Scientific Data},
+  volume={12},
+  number={1},
+  pages={161},
+  year={2025},
+  publisher={Nature Publishing Group UK London}
+}
+
 
 
 #### Test
